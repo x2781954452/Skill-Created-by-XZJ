@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub 保存与 Cloudflare 发布"
+  short_description: "先保存项目到 GitHub，再审查免费额度与限制，经确认后连接 Cloudflare 自动发布。"
+  default_prompt: "使用 $github-cloudflare-release 保存这个项目到 GitHub，先报告 Cloudflare 的费用与限制，获得批准后再自动部署。"
